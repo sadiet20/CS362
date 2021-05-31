@@ -16,6 +16,8 @@ class testCaseLeap(unittest.TestCase):
 		self.assertTrue(leap.is_leap(64))
 	def test_div100(self):
 		self.assertFalse(leap.is_leap(300))
+	def test_div400(self):
+		self.assertTrue(leap.is_leap(1600))
 
 
 
