@@ -7,6 +7,8 @@ Description: demonstrate test-first development with FizzBuzz program
 
 
 def FizzBuzz(val):
+	if(val % 3 == 0 and val % 5 == 0):
+		return "FizzBuzz"
 	if(val % 3 == 0):
 		return "Fizz"
 	if(val % 5 == 0):
