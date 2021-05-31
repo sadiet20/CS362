@@ -7,4 +7,4 @@ Description: demonstrate test-first development with FizzBuzz program
 
 
 def FizzBuzz(val):
-	return 2;
+	return val;
