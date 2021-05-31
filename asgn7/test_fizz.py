@@ -11,9 +11,9 @@ import fizz
 
 class testCaseFizz(unittest.TestCase):
 	def test_normal(self):
-		self.assertEqual(fizz.FizzBuzz(2), "two")
+		self.assertEqual(fizz.FizzBuzz(2), 2)
 	def test_normal2(self):
-		self.assertEqual(fizz.FizzBuzz(17), "seventeen")
+		self.assertEqual(fizz.FizzBuzz(17), 17)
 
 
 if __name__ == '__main__':
