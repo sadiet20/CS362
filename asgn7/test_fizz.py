@@ -18,6 +18,8 @@ class testCaseFizz(unittest.TestCase):
 		self.assertEqual(fizz.FizzBuzz(3), "Fizz")
 	def test_fives(self):
 		self.assertEqual(fizz.FizzBuzz(85), "Buzz")
+	def test_three_and_five(self):
+		self.assertEqual(fizz.FizzBuzz(15), "FizzBuzz")
 
 
 if __name__ == '__main__':
